@@ -61,7 +61,7 @@ public class Main {
 
         // int to string using ToString() method
         int nmb = 2043023;
-        String str = Integer.toString(number);
+        String str = Integer.toString(nmb);
         System.out.println("String: " + str + " Length: " + str.length());
 
     }
