@@ -1,3 +1,5 @@
+// Java String are immutable
+
 import java.util.*;
 
 public class Main {
@@ -51,5 +53,16 @@ public class Main {
         String subStr1 = sentence.substring(3, 21);
         System.out.println(nameStr);
         System.out.println(subStr1);
+
+        // int to string using parseInt(str) method
+        String num = "4527";
+        int number = Integer.parseInt(num);
+        System.out.println("Number: " + number);
+
+        // int to string using ToString() method
+        int nmb = 2043023;
+        String str = Integer.toString(number);
+        System.out.println("String: " + str + " Length: " + str.length());
+
     }
 }
