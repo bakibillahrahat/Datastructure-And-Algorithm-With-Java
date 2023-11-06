@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Strings {
+public class Main {
    public static void main(String args[]) {
      StringBuilder sb = new StringBuilder("HelloWorld");
     
